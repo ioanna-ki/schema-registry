@@ -1,0 +1,4 @@
+{
+  "source": "/home/alice/image.iso",
+  "destination": "/mnt/storage"
+}

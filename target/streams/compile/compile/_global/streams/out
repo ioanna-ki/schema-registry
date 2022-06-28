@@ -1,0 +1,13 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ioannakiriakidou/schema-registry/src/main/scala/com/snowplowanalytics/snowplow/http/RegistryRouter.scala:50:50: Exhaustivity analysis reached max recursion depth, not all missing cases are reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m(Please try with scalac -Ypatmat-exhaust-depth 40 or -Ypatmat-exhaust-depth off.)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        onSuccess(createRegistry(name, request)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ioannakiriakidou/schema-registry/src/main/scala/com/snowplowanalytics/snowplow/http/RegistryRouter.scala:88:32: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: FailureResponse(_, _, _, _), SchemaCreatedResponse(_, _, _, _), SchemaValidatedResponse(_), SuccessResponse(_, _, _), SuccessResponseWithSchema(_, _, _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      onSuccess(getSchema(id)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ioannakiriakidou/schema-registry/src/main/scala/com/snowplowanalytics/snowplow/http/RegistryRouter.scala:121:48: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: FailureResponse(_, _, _, _), GetSchemaResponse(_), SchemaCreatedResponse(_, _, _, _), SuccessResponse(_, _, _), SuccessResponseWithSchema(_, _, _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        onSuccess(validateSchema(id, request)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

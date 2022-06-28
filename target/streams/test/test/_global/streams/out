@@ -1,0 +1,46 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.snowplowanalytics.snowplow.http.RegistryRouterTest, org.scalatest.tools.Framework$$anon$1@7c9edd3a, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRegistryRouterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Schema Registry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should create a schema from a specified location[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Given a create command with a path to a json file [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + When we run createCommand [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Then we should get the expected response [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should respond with a failure when the schema is not uploaded[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Given a create command with a path to a json file [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + When we run createCommand [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Then we should get the expected response [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get a schema given its name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Given a create command with a path to a json file [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + When we run getCommand [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Then we should get the expected response [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get an empty response when the schema does not exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Given a create command with a path to a json file [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + When we run getCommand [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Then we should get an empty response [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should validate a document over a schema[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Given a validate command with a path to a json file [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + When we run validateCommand [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Then we should get the expected response [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce a report with the errors of the validation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Given a validate command with a path to a json file [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + When we run validateCommand [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Then we should get the expected response [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should respond with a failure when file cannot be validated[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Given a validate command with a not existing path to a json file [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + When we run validateCommand [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Then we should get a Failure in the response [0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.snowplowanalytics.snowplow.utils.UtilsTest, org.scalatest.tools.Framework$$anon$1@7c9edd3a, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUtilsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Utils.removeNullFields method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should remove null fields from a JSON string[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Given a JsonNode with some null fields [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + When we call removeNullFields [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Then the result should not contain any nulls [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 15 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.snowplowanalytics.snowplow.utils.UtilsTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.snowplowanalytics.snowplow.http.RegistryRouterTest[0m

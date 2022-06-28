@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "source": {
+      "type": "string"
+    },
+    "destination": {
+      "type": "string"
+    }
+  },
+  "required": ["source", "destination"]
+}

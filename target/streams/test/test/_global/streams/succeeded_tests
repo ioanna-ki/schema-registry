@@ -1,0 +1,4 @@
+#Successful Tests
+#Tue Jun 28 19:13:16 EEST 2022
+com.snowplowanalytics.snowplow.http.RegistryRouterTest=1656432795989
+com.snowplowanalytics.snowplow.utils.UtilsTest=1656432796113

@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ioannakiriakidou/schema-registry/src/main/resources/config.json,/Users/ioannakiriakidou/schema-registry/target/scala-2.13/classes/config.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ioannakiriakidou/schema-registry/src/main/resources/schema-config.json,/Users/ioannakiriakidou/schema-registry/target/scala-2.13/classes/schema-config.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ioannakiriakidou/schema-registry/src/main/resources/application.conf,/Users/ioannakiriakidou/schema-registry/target/scala-2.13/classes/application.conf)[0m

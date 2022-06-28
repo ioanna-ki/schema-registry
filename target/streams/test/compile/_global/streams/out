@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ioannakiriakidou/schema-registry/src/test/scala/com/snowplowanalytics/snowplow/http/RegistryRouterTest.scala:168:14: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: FailureResponse(_, _, _, _), GetSchemaResponse(_), SchemaCreatedResponse(_, _, _, _), SchemaValidatedResponse(Success(_)), SuccessResponse(_, _, _), SuccessResponseWithSchema(_, _, _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      result.reply match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

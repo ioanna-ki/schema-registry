@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ioannakiriakidou/schema-registry/src/test/resources/logback-test.xml,/Users/ioannakiriakidou/schema-registry/target/scala-2.13/test-classes/logback-test.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ioannakiriakidou/schema-registry/src/test/resources/config.json,/Users/ioannakiriakidou/schema-registry/target/scala-2.13/test-classes/config.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ioannakiriakidou/schema-registry/src/test/resources/malformed-config.json,/Users/ioannakiriakidou/schema-registry/target/scala-2.13/test-classes/malformed-config.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ioannakiriakidou/schema-registry/src/test/resources/schema-config.json,/Users/ioannakiriakidou/schema-registry/target/scala-2.13/test-classes/schema-config.json)[0m

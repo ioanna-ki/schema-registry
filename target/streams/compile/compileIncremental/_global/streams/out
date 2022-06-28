@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 75 products, 9 sources, 20 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/com/snowplowanalytics/snowplow/actors/PersistentSchema.scala, ${BASE}/src/main/scala/com/snowplowanalytics/snowplow/app/RegistryApp.scala, ${BASE}/src/main/scala/com/snowplowanalytics/snowplow/actors/Registry.scala, ${BASE}/src/main/scala/com/snowplowanalytics/snowplow/models/Response.scala, ${BASE}/src/main/scala/com/snowplowanalytics/snowplow/http/RegistryRouter.scala, ${BASE}/src/main/scala/com/snowplowanalytics/snowplow/models/Request.scala, ${BASE}/src/main/scala/com/snowplowanalytics/snowplow/utils/Utils.scala, ${BASE}/src/main/scala/com/snowplowanalytics/snowplow/models/Event.scala, ${BASE}/src/main/scala/com/snowplowanalytics/snowplow/models/Command.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
